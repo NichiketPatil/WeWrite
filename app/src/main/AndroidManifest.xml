@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.writerz">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme2"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".LocationActivity"></activity>
+        <service android:name=".FetchAddressIntentService"/>
+        <activity android:name=".EditProfileActivity" />
+
+
+        <activity
+            android:name=".SideNavSections.ContactUsActivity"
+            android:theme="@style/AppTheme6" />
+        <activity
+            android:name=".SideNavSections.OffersActivity"
+            android:theme="@style/AppTheme6" />
+        <activity
+            android:name=".SideNavSections.SuggestionsActivity"
+            android:theme="@style/AppTheme6" />
+        <activity
+            android:name=".SideNavSections.AboutUsActivity"
+            android:theme="@style/AppTheme6" />
+        <activity
+            android:name=".SideNavSections.ForyouActivity"
+            android:theme="@style/AppTheme6" />
+
+
+        <activity android:name=".InfoActivity" />
+        <activity android:name=".TermsActivity" />
+        <activity android:name=".HandwritingActivity" />
+        <activity android:name=".UserWriterActivity" />
+        <activity
+            android:name=".NameLocationActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".OTPActivity" />
+        <activity android:name=".RegisterPhone" />
+        <activity
+            android:name=".ViewImage"
+            android:theme="@style/AppTheme4" />
+        <activity
+            android:name=".Individual"
+            android:theme="@style/AppTheme6" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".scrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/MainTheme">
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".MessageActivity"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme3" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

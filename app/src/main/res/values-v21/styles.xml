@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="colorAccent">#fff</item>
+    </style>
+
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/whatsappDark2</item>
+        <item name="colorPrimaryDark">@color/whatsappDark2</item>
+        <item name="colorAccent">@color/whatsappDarkSelected</item>
+        <item name="homeAsUpIndicator">@drawable/ic_arrow_back_black_24dp</item>
+        <item name="android:fontFamily">@font/roboto_light</item>
+    </style>
+
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ToolbarColoredBackArrow" parent="AppTheme">
+        <item name="android:textColorSecondary">#fff</item>
+    </style>
+
+    <style name="AppTheme3" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/whatsappDark2</item>
+        <item name="colorPrimaryDark">@color/whatsappDark2</item>
+        <item name="colorAccent">@color/whatsappDarkSelected</item>
+        <item name="android:fontFamily">@font/roboto_light</item>
+    </style>
+
+     <style name="AppTheme5" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimaryDark">#fff</item>
+    <item name="android:statusBarColor">@color/transparent</item>
+</style>
+
+    <style name="AppTheme4" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/ThemeActionBar</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/ThemeActionBar</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="ThemeActionBar"
+        parent="Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="android:background">@null</item>
+        <!-- Support library compatibility -->
+        <item name="background">@null</item>
+    </style>
+
+
+
+
+</resources>

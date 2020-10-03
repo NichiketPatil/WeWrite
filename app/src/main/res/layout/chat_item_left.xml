@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp"
+    android:layout_marginEnd="80dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/chat_backleft"
+        android:layout_marginLeft="5dp"
+        android:paddingRight="25dp"
+        android:paddingLeft="25dp"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:textColor="#fff"
+        android:id="@+id/show_message"
+        android:text="hello"
+        android:textSize="13sp"
+        android:layout_toRightOf="@+id/profile_image"/>
+
+
+</RelativeLayout>

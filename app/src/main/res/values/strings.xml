@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">WeWrite</string>
+    <string name="title">LOGIN TO WeWrite</string>
+    <string name="login">LOG IN</string>
+    <string name="register">HEY NEW USER! REGISTER HERE</string>
+    <string name="registertitle">REGISTER WITH WeWrite</string>
+    <string name="title_activity_data">dataActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_scrolling">scrollingActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="writers">WANNA WRITE SOMETHING FOR SIDE INCOME, JOIN WRITERZ</string>
+    <string name="users">FIND YOUR WRITING COMPANION RIGHT NOW!</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="feedback">Feedback_Suggestions</string>
+    <string name="nichiket">+917218259970</string>
+    <string name="anikesh">+917498156895</string>
+
+</resources>

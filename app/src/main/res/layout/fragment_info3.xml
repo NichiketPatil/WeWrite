@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Info1Fragment"
+    android:orientation="vertical"
+    android:background="@color/whatsappDark2">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Can U write for Emergency Orders?(Time Limit - 1-2 Days)"
+        android:textColor="@color/whatsappDarkSelected"
+        android:layout_margin="20dp"/>
+
+
+    <RadioGroup
+        android:id="@+id/que"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/outline_edittext"
+        android:layout_margin="5dp">
+        <RadioButton
+            android:id="@+id/yes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            android:layout_margin="15dp"
+            android:textColor="#fff"
+            android:buttonTint="@color/whatsappDarkSelected"/>
+
+        <RadioButton
+            android:id="@+id/no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No"
+            android:textColor="#fff"
+            android:layout_margin="15dp"
+            android:buttonTint="@color/whatsappDarkSelected"/>
+    </RadioGroup>
+</LinearLayout>

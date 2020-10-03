@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfileActivity"
+    android:orientation="vertical"
+    android:background="@color/whatsappDark2">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/whatsappDark">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_weight="0.5"/>
+            <ImageView
+                android:id="@+id/check"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="8dp"
+                android:layout_gravity="end"
+                android:src="@drawable/ic_check" />
+
+
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_margin="15dp"/>
+    <TextView
+        android:id="@+id/change_profile_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Profile Picture"
+        android:textColor="@color/whatsappDarkSelected"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"/>
+
+   <com.rengwuxian.materialedittext.MaterialEditText
+       android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:hint="Name"
+       app:met_floatingLabel="highlight"
+       app:met_floatingLabelText="Name"
+       android:layout_margin="15dp"
+       app:met_floatingLabelTextColor="#c2c2c2"
+       app:met_textColor="#fff"
+       app:met_primaryColor="#c2c2c2"
+       app:met_baseColor="#c2c2c2"
+       />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="Location"
+        android:layout_margin="15dp"
+        app:met_floatingLabelTextColor="#c2c2c2"
+        app:met_textColor="#fff"
+        app:met_primaryColor="#c2c2c2"
+        app:met_baseColor="#c2c2c2"
+        />
+
+
+
+    <!--
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Class"
+        android:textColor="#c2c2c2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"/>
+
+    <Spinner
+        android:id="@+id/class_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/outline_edittext"
+        android:padding="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Branch"
+        android:textColor="#c2c2c2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"/>
+
+    <Spinner
+        android:id="@+id/branch_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/outline_edittext"
+        android:padding="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"/>
+        -->
+</LinearLayout>
